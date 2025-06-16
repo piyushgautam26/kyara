@@ -40,7 +40,7 @@ drink3.jpg: Product image for "Citrus Millet Zing" (Path: images/drink3.jpg).
 social/facebook.png, social/twitter.png, social/instagram.png: Social media icons (Path: images/social/).
 
 Live Preview
-Access the live site at https://.github.io/<repository-name>.
+Access the live site at https://github.com/piyushgautam26/kyara.
 
 Features
 Hero Banner: Parallax background with hero-bg.jpg, a centered logo, and an animated headline with a CTA button.
@@ -51,9 +51,3 @@ Footer: Social media icons, newsletter signup, and copyright notice.
 Animations: CSS animations (fadeIn, slideUp) for smooth transitions.
 Typography: Poppins font for hierarchy.
 Colors: Darker greens, vibrant accents, and whites for a natural look.
-
-Notes
-Images should be optimized for web use to ensure fast loading and proper display.
-Parallax effect is disabled on mobile for performance.
-Design aligns with Kyara’s fresh, authentic brand ethos.
-Submit by June 21, 2025, to careers@kyarabeverages.in with repository link or ZIP, including all images.
