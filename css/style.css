@@ -1,0 +1,67 @@
+/* Custom styles for enhanced aesthetics */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.parallax-bg {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.75) contrast(1.1);
+}
+
+.animate-fade-in {
+    animation: fadeIn 1.2s ease-in-out both;
+}
+
+.animate-slide-up {
+    animation: slideUp 1.2s ease-in-out both;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideUp {
+    0% { transform: translateY(30px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-img-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.4s ease-in-out;
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 50vh;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    img.h-48 {
+        height: 8rem;
+    }
+    .parallax-bg {
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        height: 90vh;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+}

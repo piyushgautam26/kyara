@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kyara Beverages</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="bg-green-50 font-poppins text-gray-800">
+
+  <!-- Hero Banner -->
+  <header class="relative overflow-hidden h-96 md:h-[600px] text-white flex items-center justify-center">
+    <div
+      class="absolute inset-0 z-0 parallax-bg"
+      style="background-image: url('images/hero-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    </div>
+
+    <div class="text-center z-10 animate-fade-in">
+      <img src="images/logo.png" alt="Kyara Beverages Logo" class="h-32 mx-auto mb-6 animate-fade-in" />
+      <h1 class="text-3xl md:text-6xl font-bold animate-slide-up">Refreshment, Reimagined</h1>
+      <a href="#products" class="mt-6 inline-block backdrop-blur-sm bg-green-600/70 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors duration-300 shadow-lg">
+        Explore Our Drinks
+      </a>
+    </div>
+</header>
+
+
+  <!-- Decorative Divider -->
+  <div class="w-full">
+    <svg class="w-full h-12 md:h-16" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1" d="M0,160L60,149.3C120,139,240,117,360,112C480,107,600,117,720,128C840,139,960,149,1080,138.7C1200,128,1320,96,1380,80L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg>
+  </div>
+
+  <!-- About Section -->
+  <section class="py-16 px-4 md:px-8 bg-white">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center animate-fade-in">
+      <div>
+        <h2 class="text-4xl font-semibold mb-6 text-green-800">About Kyara Beverages</h2>
+        <p class="text-lg text-gray-600 leading-relaxed">
+          At Kyara Beverages, we craft millet-based fruit drinks that blend tradition with innovation. Our mission is to deliver nutritious, refreshing, and authentic beverages that delight your senses. Join us in reimagining refreshment.
+        </p>
+      </div>
+      <img src="images/about.jpg" alt="Millet-based drink with fresh fruits" class="rounded-lg shadow-lg object-cover"/>
+    </div>
+  </section>
+
+  <!-- Decorative Divider -->
+  <div class="w-full">
+    <svg class="w-full h-12 md:h-16" viewBox="0 0 1440 320">
+      <path fill="#bbf7d0" fill-opacity="1" d="M0,192L40,186.7C80,181,160,171,240,181.3C320,192,400,224,480,213.3C560,203,640,149,720,144C800,139,880,181,960,192C1040,203,1120,181,1200,181.3C1280,181,1360,203,1400,213.3L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+    </svg>
+  </div>
+
+  <!-- Product Teasers -->
+  <section id="products" class="py-16 px-4 md:px-8 bg-green-100">
+    <div class="max-w-6xl mx-auto animate-fade-in">
+      <h2 class="text-4xl font-semibold text-center mb-10 text-green-800">Our Drinks</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Product 1 -->
+        <div class="bg-white rounded-xl shadow-lg p-6 text-center relative overflow-hidden transform hover:scale-105 transition-all duration-300 group">
+          <div class="absolute inset-0 bg-green-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <img src="images/drink1.jpg" alt="Mango Millet Splash bottle" class="h-48 mx-auto mb-4 rounded-lg object-cover card-img-hover">
+          <h3 class="text-xl font-medium text-green-700">Mango Millet Splash</h3>
+          <p class="text-gray-600">A tropical burst of mango and millet goodness.</p>
+        </div>
+        <!-- Product 2 -->
+        <div class="bg-white rounded-xl shadow-lg p-6 text-center relative overflow-hidden transform hover:scale-105 transition-all duration-300 group">
+          <div class="absolute inset-0 bg-green-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <img src="images/drink2.jpg" alt="Berry Millet Bliss bottle" class="h-48 mx-auto mb-4 rounded-lg object-cover card-img-hover">
+          <h3 class="text-xl font-medium text-green-700">Berry Millet Bliss</h3>
+          <p class="text-gray-600">Sweet berries meet wholesome millet refreshment.</p>
+        </div>
+        <!-- Product 3 -->
+        <div class="bg-white rounded-xl shadow-lg p-6 text-center relative overflow-hidden transform hover:scale-105 transition-all duration-300 group">
+          <div class="absolute inset-0 bg-green-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <img src="images/drink3.jpg" alt="Citrus Millet Zing bottle" class="h-48 mx-auto mb-4 rounded-lg object-cover card-img-hover">
+          <h3 class="text-xl font-medium text-green-700">Citrus Millet Zing</h3>
+          <p class="text-gray-600">Zesty citrus paired with nourishing millet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-16 px-4 md:px-8 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-semibold text-center mb-10 text-green-800">Get in Touch</h2>
+      <form id="contact-form" class="max-w-lg mx-auto space-y-6 animate-fade-in">
+        <div>
+          <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+          <input type="text" id="name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transform focus:scale-105 transition-transform duration-200" placeholder="Your Name" required>
+        </div>
+        <div>
+          <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+          <input type="email" id="email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transform focus:scale-105 transition-transform duration-200" placeholder="Your Email" required>
+        </div>
+        <div>
+          <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+          <textarea id="message" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transform focus:scale-105 transition-transform duration-200" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-3 rounded-lg hover:from-green-700 hover:to-green-800 transition-colors duration-300">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-green-900 text-white text-center">
+    <div class="max-w-6xl mx-auto">
+      <div class="mb-4">
+        <h3 class="text-lg font-semibold mb-2">Stay Connected</h3>
+        <div class="flex justify-center space-x-4">
+          <a href="#"><img src="images/social/facebook.png" alt="Facebook Icon" class="h-6 hover:scale-110 transition-transform"></a>
+          <a href="#"><img src="images/social/twitter.png" alt="Twitter Icon" class="h-6 hover:scale-110 transition-transform"></a>
+          <a href="#"><img src="images/social/instagram.png" alt="Instagram Icon" class="h-6 hover:scale-110 transition-transform"></a>
+        </div>
+      </div>
+      <div class="mb-4">
+        <h3 class="text-lg font-semibold mb-2">Join Our Newsletter</h3>
+        <form class="max-w-md mx-auto flex">
+          <input type="email" placeholder="Enter your email" class="w-full p-2 rounded-l-lg border border-gray-300 focus:outline-none">
+          <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded-r-lg hover:bg-green-700">Subscribe</button>
+        </form>
+      </div>
+      <p>© 2025 Kyara Beverages. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Parallax effect for hero background
+    window.addEventListener('scroll', () => {
+      const parallax = document.querySelector('.parallax-bg');
+      const offset = window.pageYOffset;
+      parallax.style.backgroundPositionY = `${offset * 0.5}px`;
+    });
+
+    // Form submission feedback
+    document.getElementById('contact-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const button = e.target.querySelector('button');
+      button.textContent = 'Submitting...';
+      button.disabled = true;
+      setTimeout(() => {
+        button.textContent = 'Submit';
+        button.disabled = false;
+        alert('Form submitted! (No backend processing implemented)');
+      }, 1000);
+    });
+  </script>
+
+</body>
+</html>
