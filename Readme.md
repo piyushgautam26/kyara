@@ -39,8 +39,10 @@ drink2.jpg: Product image for "Berry Millet Bliss" (Path: images/drink2.jpg).
 drink3.jpg: Product image for "Citrus Millet Zing" (Path: images/drink3.jpg).
 social/facebook.png, social/twitter.png, social/instagram.png: Social media icons (Path: images/social/).
 
+Github repo https://github.com/piyushgautam26/kyara.
+
 Live Preview
-Access the live site at https://github.com/piyushgautam26/kyara.
+Access the live site at https://piyushgautam26.github.io/kyara/.
 
 Features
 Hero Banner: Parallax background with hero-bg.jpg, a centered logo, and an animated headline with a CTA button.
